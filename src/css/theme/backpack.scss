@@ -1,0 +1,16 @@
+.item-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding: $regular;
+
+    .item {
+        position: relative;
+    }
+
+    .input {
+        margin-top: $regular;
+        padding: $regular;
+        text-align: center;
+    }
+}

@@ -1,0 +1,18 @@
+.tile {
+    display: inline-flex;
+    height: $tile;
+    position: relative;
+    width: $tile;
+
+    &--0 {
+        background-color: $color-green-dark-2;
+    }
+
+    &--1 {
+        background-color: $color-green;
+    }
+
+    &--2 {
+        background-color: $color-green-light-2;
+    }
+}

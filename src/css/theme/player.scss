@@ -1,0 +1,10 @@
+.player {
+    background: url('../img/player/player.png') no-repeat;
+    display: inline-flex;
+    height: $tile;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: $tile;
+    z-index: z-index("player");
+}

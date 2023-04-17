@@ -1,0 +1,11 @@
+{% set arr = [
+    {id: 'backpack', disabled: ''},
+    {id: 'craft', disabled: ''},
+    {id: 'pick', disabled: 'disabled'},
+    {id: 'hit', disabled: ''}
+] %}
+{% for item in arr %}
+<button type="button" class="button" data-id="action-{{item.id}}" {{item.disabled}}>
+    {{item.id}}
+</button>
+{% endfor %}
